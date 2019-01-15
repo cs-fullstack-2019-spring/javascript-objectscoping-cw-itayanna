@@ -20,6 +20,13 @@
   console.log(test());
   ```
 
+
+
+- First the code will log Aurelio De Rosa because in the console.log parenthesis it goes directly to the place where its was defined. It is calling from a trail leading into the 3rd scope where the fullName var is redefined. but the next consol log is pulling from a var that is in the global scope meaning it will also pull from the fullname value in the same scope. 
+
+
+
+
 2. What will you see in the console for the following example?
   ```
   var a = 1; 
@@ -31,6 +38,13 @@
   b(); 
   console.log(a);    
   ```
+
+
+- You will see 1 because var a is already defined as 1 and is only changed in the function b, if it was logged in b it would print out what is was redefined as. Function b is called but it doesn't log anything in the functio, so the console will only have what is in var a. 
+
+
+
+
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
 
